@@ -806,7 +806,7 @@ def matlab_body():
 
 
 # ── DEMOS ─────────────────────────────────────────────────────────────────────
-def demos_body():
+def demos_body(page: ft.Page):
     return ft.Column(
         controls=[
             ft.Column(
@@ -1198,7 +1198,7 @@ def main(page: ft.Page):
             "/timeline": ("timeline", timeline_body()),
             "/github":   ("github",   github_body()),
             "/matlab":   ("matlab",   matlab_body()),
-            "/demos":    ("demos",    demos_body()),
+            "/demos":    ("demos",    demos_body(page)),
             "/blog":     ("blog",     blog_body()),
             "/contact":  ("contact",  contact_body(page)),
         }
