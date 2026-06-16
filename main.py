@@ -859,7 +859,7 @@ def demos_body(page: ft.Page):
                                         shape=ft.RoundedRectangleBorder(radius=8),
                                         padding=ft.Padding.symmetric(horizontal=20, vertical=12)
                                     ),
-                                    on_click=lambda e: page.launch_url("https://unam164-my.sharepoint.com/:v:/g/personal/225087111_students_unam_na/IQCScx0NhGG4SJao-XrtRHOyAaj6jqKUri00VHj3Y-TZ8PE?e=vD6fIm"),
+                                    url="https://unam164-my.sharepoint.com/:v:/g/personal/225087111_students_unam_na/IQCScx0NhGG4SJao-XrtRHOyAaj6jqKUri00VHj3Y-TZ8PE?e=vD6fIm",
                                 ),
                             ],
                             alignment=ft.MainAxisAlignment.CENTER,
